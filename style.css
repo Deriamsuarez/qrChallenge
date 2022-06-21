@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam&display=swap');
+
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightGray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--lightGray);
+    display: flex;
+
+}
+
+.cardContainer {
+    margin: 0;
+    padding: 0;
+
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: var(--white);
+    margin: auto;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.qrBox{
+    width: 280px;
+    height: 280px;
+    background-image: url(./images/image-qr-code.png);
+    background-size: cover;
+    margin: 10px;
+    border-radius: 5px;   
+    margin-bottom: 15px;
+}
+
+h3, p{
+    margin: 4px;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+p{
+    text-align: center;
+}
+
+.textContainer{
+    margin: 0;
+    padding: 0px;
+    /* border: 1px dashed blue; */
+}
