@@ -26,30 +26,31 @@ body {
     border-radius: 10px;
     background-color: var(--white);
     margin: auto;
-    margin-top: 250px;
+    margin-top: 150px;
     text-align: center;
 }
 
-.qrBox{
+.qrBox {
     width: 280px;
     height: 280px;
     background-image: url(./images/image-qr-code.png);
     background-size: cover;
     margin: 10px;
-    border-radius: 5px;   
+    border-radius: 5px;
     margin-bottom: 15px;
 }
 
-h3, p{
+h3,
+p {
     margin: 4px;
     font-family: 'Anek Malayalam', sans-serif;
 }
 
-p{
+p {
     text-align: center;
 }
 
-.textContainer{
+.textContainer {
     margin: 0;
     padding: 0px;
     /* border: 1px dashed blue; */
